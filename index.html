@@ -1,0 +1,516 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Home: David O'Ryan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Intro -->
+						<article id="about">
+							<h2 class="major">About Me: Professional</h2>
+							<!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
+							<p>
+								I am a fourth year PhD student at the <a href = "https://www.lancaster.ac.uk/">University of Lancaster</a>, UK. I study galaxy formation and evolution
+								using statistical methods under Dr <a href = "https://vrooje.github.io/">Brooke Simmons</a>. Prior to working at Lancaster, I was an undergraduate at the 
+								<a href = "https://www.gla.ac.uk/">University of Glasgow</a> where I completed a Masters in Solar Physics under Dr 
+								<a href = "https://www.gla.ac.uk/schools/physics/staff/nicolaslabrosse/">Nicolas Labrosse</a>. In that project, we developed code to model the spectra of 
+								<a href = "https://www.nasa.gov/content/goddard/what-is-a-solar-prominence">solar prominences</a> as they formed and evolved.
+							</p>
+							<p>
+								I am a junior associate in the <a href = "https://www.lsst.org/about">Legacy Survey of Space and Time</a> collaboration, preparing the Vera 
+								C. Rubin observatory for detecting low-surface brightness (LSB) galaxies and features. I am also building pipelines for galactic morphology identification
+								for the colossal datasets that the observatory will produce. I am also a collaborator in the 
+								<a href = "https://www.zooniverse.org/projects/zookeeper/galaxy-zoo/">Galaxy Zoo</a> collaboration. This group is focused on using galaxy classification by
+								volunteers to explore large datasets of galaxies. I am primarily focused on the archived <a href = "https://mergers.galaxyzoo.org/">Galaxy Zoo: Mergers</a>
+								project, where I am building algorithms to automate its methodology. I am also involved in the Galaxy Zoo: DESI project (soon to be released) and using that 
+								data to explore merging and disturbed galaxies.
+							</p>
+							<p>
+								If you would like more details about my research, then you can find them on my <a href = "#research">Research</a> and <a href = "#internships">Internships</a>
+								pages. My full CV is also available on the <a href = "DOR_CV.pdf">relevant page</a>.
+							</p>
+
+							<h2 class = "major">About Me: Other</h2>
+							<p>
+								As well as working in astrophysics, I am also an avid amateur astronomer. I was given my first small refracting telescope at eleven, and astronomy has been my passion ever since. I now use 
+								a pair of binoculars, which are much easier to transport. With them, I have attempted many times to do some astrophotography, but with little success so far. Therefore, I have to stick to regular photography
+								for now. I love film photography, and carry a disposible camera wherever I go - building up large photo albums the last few years. I don't just program for my job, and also work
+								on extra data science projects, which you can find on my <a href = "https://github.com/AstroORyan?tab=repositories">GitHub</a>. These projects range from mapping out UFO encounters, to finding 
+								investigating things to do with the British census data, to building the game Snake.
+							</p>
+							<p>
+								To completely break from research, I hike a lot with my friends (but who didn't get into that during the pandemic), travel around the world (a lot for my PhD, but much more with 
+								my partner) and read and write extensively. My most recent article will be hosted on <a href = "https://astrobites.org/">AstroBites</a>. I've also written for data science companies
+								(this <a href = "https://medium.com/@1715labs/the-complicated-relationship-between-free-text-and-data-science-2406074777a">Medium Post</a> as an example). But, most of my material 
+								was written	was for the magazine <a href="https://qmunicatemagazine.com/?s=David+O%27Ryan">Qmunicate</a> in my undergraduate. I didn't just write for that magazine, becoming
+								the science and tech editor for a while. This had me pitching my own ideas for articles to writers, and editing the work they submitted. These works were often published in the 
+								physical magazines.
+							</p>
+							<span class="image main"><img src="my_images/chill-me-combined.png" alt="Me being a human." width = "101.15%" height="auto"></span>
+						</article>
+
+					<!-- Work -->
+						<article id="research">
+							<h1 class="major">My Research</h1>
+							<h2 class="major">Research Interests</h2>
+							<p>
+								My astrophysical research is primarily focused on galaxy evolution, specifically putting constraints on interacting and merging galaxies. I am particularily
+								interested in the <a href="https://sites.google.com/view/lsstgsc/working-groups/low-surface-brightness-science">low surface brightness</a> tidal features which form in these interactions. Tidal interactions also directly affect the molecular
+								gas in the <a href ="https://en.wikipedia.org/wiki/Interstellar_medium">interstallar medium</a> (ISM) of the galaxy. It is known that such disturbance to the molecular gas can lead to an increase in star formation
+								throughout the galaxy - a <a href="https://astronomy.swin.edu.au/cosmos/s/starburst+galaxy">starburst</a>. A curiousity of mine is where these starbursts happen in the galaxy, and how this relates to the changes of its 
+								<a href = "https://en.wikipedia.org/wiki/Spectral_energy_distribution#:~:text=A%20spectral%20energy%20distribution%20(SED,astronomy%20to%20characterize%20astronomical%20sources.">spectral energy distribution</a> (SED). A more recent topic of study is what happens to the magnetic field of a galaxy during interaction.
+								Though, this is far from the focus of my PhD, but I wish to pursue it in future research.
+							</p>
+							<p>
+								In the rest of this page I will breakdown the projects I am currently working on and relate directly to my research interests.
+							</p>
+							<h2 class="major">Current Research Projects</h2>
+							<p>
+								Below is a list of my current research projects. Click on the titles for their details!
+							</p>
+							
+							<button type = "button" class = "collapsible">Constraining Galaxy Interaction</button>
+								<div class = "entry">
+									<p>
+										Understanding galaxy interaction is an incredibly challenging task. There are many different types of interaction (e.g, major interactions, wet interactions, coalescent mergers, etc) which all affect galaxies differently. An example of a minor and 
+										a major interaction (respectively) is shown below. Interaction occurs over such large timescales (usually a few hundred megayears to a gigayear) that we cannot simply sit back and watch one unfold. Therefore, we must observe
+										many different types of interacting systems throughout the universe at different stages to piece together the underlying processes at work. This investigation is incredibly important, as our theories of 
+										galaxy evolution (<a href = "https://www.cosmotography.com/images/galaxy_formation_and_evolution.html">&Lambda; Cold Dark Matter</a>) postulates that galaxies formed hierarchically. That means a lot of interaction, and merging 
+										of galaxies to form those that we see today.
+									</p>
+									<span class="image main"><img src="my_images/interaction-example.jpg" alt="Minor interaction NGC 5097 and major interaction Arp 240." width = "101.15%" height="auto"></span>
+									<p>
+										As we cannot observe these systems evolve naturally, we turn to simulations. There are three main types of simulation: magnetohydrodynamic, semi-analytic and numerical/N-body simulations. Each of these kinds of simulations
+										have their uses, but my focus is on using numerical simulations to constrain interacting galaxies. We approximate the disks of each galaxy using a finite number of massless particles, and put them in the gravitational potential of the two
+										colliding galaxies. We split the entire interaction into numerous, discrete timesteps and calculate the forces on and velocities of each particle. These then can update particles position. After we have made all of our timesteps, the
+										resultant particle distribution can resemble the actual distribution of our observed interacting galaxies. An example is shown below of our numerical simulations approximation of the above major interaction Arp 240.
+									</p>
+									<span class="image main"><img src="my_images/obs-sim-comb.png" alt="Numerical simulation of Arp 240 interaction" width = "101.15%" height="auto"></span>
+									<p>
+										By imaging the positions of each particle through every time step, we can also create videos of the entire interaction.
+									</p>
+									<video width="500" height="auto" controls>
+										<source src="videos/Arp_240_Video.mp4" type="video/mp4">
+									  Your browser does not support the video tag.
+									  </video>
+									<p>
+										The important take away of each of these simulations is that to create them, we must estimate a host of underlying parameters of each galaxy. For example, to create the above interaction we assumed that the primary and secondary galaxies had masses 
+										of 2.23&times;10<sup>12</sup>M<sub>&odot;</sub> and 2.16&times;10<sup>12</sup>M<sub>&odot;</sub>, respectively. We also had to assume the 3D positions of the secondary, the sizes of the galaxies, how fast they were moving and their relative orientations to each other. So, by creating a simulation which approximates the mass distribution
+										of the interacting system, we can logically assume that the parameters we used to create it are the similar to those underlying parameters of the real galaxies. 
+									</p>
+									<p>
+										We take this a step further, however. We take these numerical simulations of interacting galaxies and the comparison to observation and combine it with <a href = "https://en.wikipedia.org/wiki/Bayesian_statistics">Bayesian Statistics</a>. Bayesian Stats allows us to define a probability distribution for each parameter of our simulation. I.e. we can not only find the best fit parameters of interacting systems,
+										but also quantify how likely that is to be correct. So, we can investigate if there are multiple parameter combinations to form a single system - so called <a href = "https://www.statisticshowto.com/degenerate-distribution/">degeneracies</a>, and also explore where these degeneracies arise and why. This will be an incredibly powerful approach for not just interacting galaxies, but the formation mechanisms behind many 
+										different kinds of astrophysical systems.
+									</p>
+									<p>
+										Thus, this project focuses on building a pipeline which can find the most likely parameters of many different interacting systems using numerical simulations. 
+										Once we can constrain them across many systems with different characteristics, we will be able to explore the full impact of interaction on galaxy evolution
+										in a quantifiable way.
+									</p>
+								</div>
+
+							<button type = "button" class = "collapsible">Robustly Detecting Mergers</button>
+								<div class = "entry">
+									<p>
+										As described in my previous research project, constraining galaxy interaction is a notoriously challenging task. However, even recognising them from observations come with its own issues. If we wanted to find distinct types of 
+										objects in astrophysical observations, we often turn to two sorts of classifiers: <a href = "https://en.wikipedia.org/wiki/Machine_learning">machine learning</a> (ML) or <a href = "https://www.theguardian.com/science/2012/mar/18/galaxy-zoo-crowdsourcing-citizen-scientists">citizen scientists</a>. We must use these automated/delegated methods due to the sheer volume of 
+										astrophysical objects we are observing, with millions of sources potentially having to be classified per night. This cannot be left to a single researcher or individual. 
+									</p>
+									<p>
+										Using such automated/delegated methods work for many different types of astrophysical objects, except when it comes to interacting galaxies. The workhorse ML algorithm to classify astrophysical sources is the 
+										<a href = "https://www.ibm.com/uk-en/topics/convolutional-neural-networks">convolutional neural network</a>, or CNN. Essentially, this acts as an image identification algorithm. We would train the CNN to recognise certain features of an interacting galaxies (I.e. two galaxies 
+										close together, tidal debris, tidal bridges, etc.) and the CNN would classify anything with these features as interacting. However, our observations of interacting galaxies are only a two dimensional projection of the actual 
+										three dimensional system. Therefore, a CNN could highly predict an interacting system for two objects close together in 2D, but in 3D are actually kilo- or mega-parsecs apart. The only way to definitively know two galaxies are close 
+										together in physical space is by knowing their <a href = "https://en.wikipedia.org/wiki/Redshift">redshift</a>. If they are at similar redshifts, and close together in the plane of the sky, we know that are actually gravitationally interacting with one another. An 
+										example of an interacting pair of galaxies and two simply close together by projection (i.e. are just a close pair) is shown below.
+									</p>
+									<span class="image main"><img src="my_images/interacting-close-im.jpg" alt="An example of confirmed interacting galaxies and two galaxies close together by projection." width = "101.15%" height="auto"></span>
+									<p>
+										So, why don't we just find the redshift of each galaxy we think might be interacting? Unfortunately, finding it is a non-trivial task. We need to take extentive spectroscopic measurements, looking for 
+										recognised elements in each galaxy. If we have observations of tens of thousands of potentially interacting galaxies that we want to confirm, doing these observations and analysis is unfeasible.
+									</p>
+									<p>
+										Other methods to infer if galaxies are interacting or not are currently under development. These often utilise the flux distribution of the galaxies, or naively estimate the redshift of each galaxy by comparing to simulated 
+										disks. I'm working to utilise, purely, the shape of the systems to infer if a galaxy is interacting or not. By using the <a href ="https://shapely.readthedocs.io/en/stable/manual.html">Shapely</a> Python package, it is possible to extract Polygons of each galaxy and then make a measurement
+										of how symmetric they are. As interacting galaxies will appear disturbed, and therefore not symmetric, we will be able to pick these out compared to close pairs, which should retain their symmetry.
+									</p>
+								</div>
+								
+							<button type = "button" class = "collapsible">Mergers in Galaxy Zoo: DESI</button>
+							<div class = "entry">
+								<p>
+									The <a href = "https://www.zooniverse.org/projects/zookeeper/galaxy-zoo/">Galaxy Zoo</a> collaboration has been running for nearly two decades. It is an online platform where volunteers can classify images of galaxies based on their morphology. These classifications range from 
+									<a href = "https://en.wikipedia.org/wiki/Elliptical_galaxy">elliptical galaxies</a>, to <a href = "https://en.wikipedia.org/wiki/Disc_galaxy">disk galaxies</a>, to <a href = "https://esahubble.org/wordbank/spiral-galaxy/">spiral galaxies</a>, to disturbed galaxies, to even stars. Through this platform, millions of galaxies have been classified giving us astrophycists
+									large, statistically robust samples of different galaxy types to explore and analyse.
+								</p>
+								<p>
+									The most recent data release of Galaxy Zoo is (or soon will be) Galaxy Zoo: Dark Energy Survey Instrument (DESI), containing nearly nine million deep images of galaxies between redshifts 0 and 0.5. I, of course, am interested in the mergers and 
+									disturbed systems in this most recent data release. In fact, this release was the first classification tree to have a dedicated "Is the galaxy disturbed or merging?" question. Therefore, volunteers have been readily able to extract all of the 
+									merging galaxies from the million galaxies. These are split into "Not Disturbed", "Minor Disturbance", "Major Disturbance" and "Merger".
+								</p>
+								<span class="image main"><img src="my_images/desi-images.png" alt="A minorly, majorly disturbed and merging system from Galaxy Zoo: DESI." width = "101.15%" height="auto"></span>
+								<p>
+									From my early analysis, there are at least 200k merging or interacting (minor- or majorly disturbed) galaxies in the sample, with another 100k requiring further inspection. With such a large, statistically robust, sample I will explore the relationship between the
+									<a href = "https://en.wikipedia.org/wiki/CAS_parameters#:~:text=The%20CAS%20(concentration%2C%20asymmetry%2C,of%20the%20object%20under%20study.">CAS</a>, <a href = "https://photutils.readthedocs.io/en/stable/api/photutils.morphology.gini.html">GINI</a> and M<sub>20</sub> parameters of merging or interacting galaxies. For the invention and exploration of these parameters see <a href = "https://ui.adsabs.harvard.edu/abs/1994ApJ...432...75A/abstract">Abrahams et al. (1994,1996)</a> and
+									<a href = "https://ui.adsabs.harvard.edu/abs/2004AJ....128..163L/abstract">Lotz et al. (2004)</a>. I will also use this sample to infer the merger rate over the observed redshift, keeping in mind the effects of selection in Galaxy Zoo: DESI as well as comment on new methods of interacting 
+									galaxy identification.
+								</p>
+							</div>
+
+							<button type = "button" class = "collapsible">Star Formation in Mergers: Localisation</button>
+							<div class = "entry">
+								<p>
+									My final research project is looking at star formation in interacting and merging galaxies. It is well known that interaction can, dependent on underlying parameters, lead to a galaxy undergoing a 
+									<a href = "https://en.wikipedia.org/wiki/Starburst_galaxy">starburst</a> and eventual <a href = "https://en.wikipedia.org/wiki/Quenching_(astronomy)">quenching</a>. However, an open question remains as to where this intense star formation happens. Current theory dictates that, due to the torques
+									exerted upon the gas in the galaxy, it begins to lose angular momentum. This loss in angular momentum leads to it moving towards the centre of the galaxy. As the gas moves to the centre, the gas density increases to such a degree
+									that gravitational collapse of molecular clouds accelerates and, thus, so does star formation. This movement of gas can also lead to other effects on the galaxy, such as the <a href = "https://esahubble.org/wordbank/active-galactic-nucleus/">ignition of nuclear activity</a>.
+								</p>
+								<p>
+									However, this theoretical picture is very much that of a single type of galaxy interaction: a major one. In such interactions (where the involved galaxies have close to equivalent mass), the force of these torques lead to the 
+									described processes. But, if one galaxy is less massive than the other one (a minor interaction) or perhaps many orders of magnitude less (a micro interaction) then the effects on the most massive galaxy (primary) will hardly be noticed. For the 
+									less massive galaxy (the secondary) the results would be catastrophic. It would either be completely absorbed or destroyed by the more massive galaxy. 
+								</p>
+								<p>
+									So, where is the star formation in these scenarios? Do we observe an area of the primary galaxy where star formation is enhanced? Does the secondarys' gas just get split aorund the galaxy equally? Or do we observe the same rush to the 
+									nuclear region as in the major example? All of this is without considering the formation of tidal features, or the distortion and potential destruction of the disks of either galaxies.
+								</p>
+								<p>
+									To answer this question, I aim to look for signs of star formation in interacting galaxies to the sub-kpc scale. This can (hopefully) be achieved with the new <a href = "https://ingconfluence.ing.iac.es/confluence/display/WEAV/The+WEAVE+Project">William Herschel Telescope Enhanced Area Velocity Explorer</a> 
+									(WEAVE) multi-object survey spectrograph. This new, colossal, spectrograph is able to take measurements of different areas of a galaxy. By then looking for extreme intensities of either H&alpha; (a sign of molecular gas over-density) or O[III] (a direct sign
+									of star formation) emission, we will be able to investigate where star formation is happening and if it has been enhanced by the interaction or merger.
+								</p>
+							</div>
+							
+						</article>
+
+					<!-- About -->
+						<article id="internships">
+							<h1 class="major">Internships</h1>
+							<p>
+								Throughout my undergraduate and, briefly, in my postgraduate career I have conducted internships ranging from 6 weeks in the summer to full three month projects.
+								This page will detail each one, explaining the aims and results of each. For a much quicker summary and list of my internships, please see the relevant
+								section of my <a href = "DOR_CV.pdf">CV</a>. While some of these projects relate to my PhD research, none of these have been the focus of my PhD. For my current
+								research projects, please see my <a href = "#research">Research Interests</a> page.
+							</p>
+							<p>
+								Please click the drop downs below if you would like to know more about each internship!
+							</p>
+
+							<button type = "button" class = "collapsible">ESAC: Archival Researcher</button>
+							<div class = "entry">
+								<p>
+									Location: <a href = "https://www.esa.int/About_Us/ESAC">European Space Astronomy Centre</a>, Madrid, Spain <br/>
+									Duration: 3 Months <br/>
+									Supervisor: Dr <a href="http://brunomerin.com/">Bruno Meri&#769;n</a>
+								</p>
+								<p>
+									The last internship I conducted focused on finding interacting galaxies throughout the entire <a href = "https://hst.esac.esa.int/ehst/">Hubble Science Archives</a>. This was achieved by using the new platform <a href = "https://datalabs.esa.int/">ESA: Datalabs</a>. 
+									This platform allows a user to "mount" the entire Hubble archives onto the platform and access every observation as if it were a local file. In this way, the process of having to download source images is removed from our data analysis. This is important, as observation files 
+									can take on the timescale of weeks to download when you want to download more than a few hundred of them. In this project, we needed to download 9,500 of them. 
+								</p>
+								<p>
+									By using a newly developed Machine Learning algorithm called <a href = "https://zoobot.readthedocs.io/en/latest/">Zoobot</a> we classified over 126 million astrophysical sources into interacting and non-interacting galaxies. By 
+									then conducting intense contamination removal, we found a pure catalogue of 21,926 interacting galaxies which were then released on <a href = "https://zenodo.org/record/7684876">Zenodo</a>. In the process of contamination removal, we also
+									discovered many other astrophysical objects of interest which were buried in the archives. We also released these catalogues at the same link.
+								</p>
+								<p>
+									For a full description of this work, see the pre-print on <a href = "https://arxiv.org/abs/2303.00366">ArXiv</a>. This manuscript is currently accepted in the <a href = "https://iopscience.iop.org/journal/0004-637X">Astrophysical Journal</a>
+									and is soon to be formally published.
+								</p>
+							</div>
+
+							<button type = "button" class = "collapsible">University of Glasgow: Imaging Concepts</button>
+							<div class = "entry">
+								<p>
+									Location: <a href = "https://www.gla.ac.uk/schools/physics/">University of Glasgow</a>, Glasgow, UK <br/>
+									Duration: 2.5 Months <br/>
+									Supervisor: Dr Pavan Chandra Konda
+								</p>
+								<p>
+									This internship was a step away from astronomy and my attempt to try something new. I went from studying galaxy evolution and finishing my bachelors thesis on mapping 
+									molecular hydrogen in the Milky Way to the <a href = "https://www.gla.ac.uk/schools/physics/research/groups/imagingconcepts/">Imaging Concepts Group</a> at the University of Glasgow. This work focused on the development of <a href="https://www.england.nhs.uk/2021/03/nhs-rolls-out-capsule-cameras-to-test-for-cancer/">pill cameras</a> 
+									using <a href = "https://en.wikipedia.org/wiki/Single-photon_avalanche_diode">Single Photon Avalanche Diodes</a> (SPADs) to image the gut.
+								</p>
+								<p>
+									Currently, if we want images of the gut or intestines, we must conduct a very invasive procedure: an <a href = "https://www.nhs.uk/conditions/endoscopy/">endo-</a> or <a href = "https://www.nhs.uk/conditions/colonoscopy/">colon-scopy</a>. This is where a doctor must insert a camera attached to a cord 
+									into a patient, and navigate within them to the area of the intestine or stomach to image. As anyone who has been through this procedure will tell you, it is incredibly uncomfortable.
+									Therefore, for a long time, an obvious solution has been proposed: pill cameras. What if the patient can simply swallow a pill containing a small camera and a light and image the 
+									entire intestinal system over the course of a few hours.
+								</p>
+								<p>
+									This has been attempted to various levels of success. The primary obstacle is the battery requirement of such a pill. The gut is a dark place and, therefore, requires illumination to 
+									be detected by a <a href = "https://en.wikipedia.org/wiki/Charge-coupled_device">CCD</a>. With this extra requirement, the pill camera's battery often cannot last long enough; losing power before making it to the regions of interest in the gut.
+									This is where SPADs come in. These detectors are incredibly sensitive, being able to detect single photons of emission. Therefore, with a SPAD as the camera we can use a low-power laser. This laser then stimulates the natural <a href = "https://oceanservice.noaa.gov/facts/biolum.html#:~:text=Bioluminescence%20is%20the%20production%20and,surface%20to%20the%20deep%20seafloor.">bio-luminescence</a>
+									of the gut, which is then imaged by the SPAD.
+								</p>
+								<p>
+									There is a trade off in this idea, however. What the SPAD increases in sensitivity, it loses in image resolution. This loss in resolution is often to the point of making the images unusable. Therefore, we employed <a href = "https://en.wikipedia.org/wiki/Super-resolution_imaging">super-resolution</a> techniques to 
+									reconstruct higher-resolution images from the SPAD, and investigated if they could be used for medical purposes. This super-resolution would be possible due to the natural 
+									movements of the pill camera in the gut by <a href = "https://www.britannica.com/science/peristalsis">peristalsis</a>, which would allow many images at slightly different positions to be taken and then combined in post-processing. We unfortunately
+									discovered that the motion by (simulated) peristalsis would not be enough to allow us to use super-resolution to remake the images to the required quality.
+								</p>
+							</div>
+
+							<button type = "button" class = "collapsible">University of St Andrews: Galaxy Evolution</button>
+							<div class = "entry">
+								<p>
+									Location: <a href = "https://www.st-andrews.ac.uk/">University of St Andrews</a>, St Andrews, UK <br/>
+									Duration: 2 Months <br/>
+									Supervisor: <a href = "https://risweb.st-andrews.ac.uk/portal/en/persons/indranil-banik(d66f0119-1735-4358-ab0f-4e5b5754d7b2).html">Indranil Banik</a> & Dr <a href = "https://risweb.st-andrews.ac.uk/portal/en/persons/hongsheng-zhao(7ee554cc-f5a0-4785-ac90-7576938eb6b4).html">Hongsheng Zhao</a>
+								</p>
+								<p>
+									A common problem seen in our main cosmological model (&Lambda;CDM) is that of the <a href = "https://en.wikipedia.org/wiki/Dwarf_galaxy_problem">missing satellite problem</a>. Using large cosmological simulations, we often do not produce as many satellite galaxies as we observe in the real universe.
+									This is compounded by the seemingly rare nature of our own satellite galaxies about the <a href = "https://en.wikipedia.org/wiki/Milky_Way">Milky Way</a> and <a href = "https://earthsky.org/clusters-nebulae-galaxies/andromeda-galaxy-closest-spiral-to-milky-way/">Andromeda</a>.
+									The <a href = "https://www.cuemath.com/geometry/plane-definition/">plane</a> that these satellites orbit in is very flat, almost the same as the plane of the disk, as well as having a very distinct pole in <a href = "https://en.wikipedia.org/wiki/Position_and_momentum_spaces">momentum space</a>. This indicates that they are all 
+									co-rotating with one another. The probability of this occuring by chance is exceptionally small, unless the Andromeda and Milky Way galaxies have had a past encounter. Unfortunately, for such an encounter to have occurred would be incompatible with 
+									&Lambda;CDM cosmology.
+								</p>
+								<p>
+									However, there is an alternative theory of gravity which expects a previous close flyby of the Andromeda and Milky Way galaxies about 1Gyrs ago. That theory is of <a href = "https://ui.adsabs.harvard.edu/abs/1983ApJ...270..365M/abstract">Modified Newtonian Dynamics</a>
+									(MOND). Therefore, using this theory of gravity, we ran numerous numerical simulations of the potential past encounter and studied the tidal debris and tidal satellites that would be formed. Not only did we find that we could recreate the strong 
+									pole in angular momentum space, but we also naturally recreated the very flat plane of the satellite galaxies orbit. Other parameters were controlled for, such as the resultant thin disk of the Milky Way and the expected number 
+									of satellite galaxies which are actually escaping the Milky Way-Andromeda environment.
+								</p>
+								<p>
+									This work was published in MNRAS in 2018, and can be found <a href = "https://ui.adsabs.harvard.edu/abs/2018MNRAS.477.4768B/abstract">here</a>.
+								</p>
+							</div>
+
+							<button type = "button" class = "collapsible">CAMK: Galaxy Evolution</button>
+							<div class = "entry">
+								<p>
+									Location: <a href = "https://www.camk.edu.pl/en/">Nicolas Copernicus Astronomical Centre</a>, Warsaw, Poland <br/>
+									Duration: 1.5 Months <br/>
+									Supervisor: Prof. <a href = "https://www.camk.edu.pl/en/staff/lokas/">Ewa &#321;okas</a>
+								</p>
+								<p>
+									My first internship (and experience) in a research environment was in studying galaxy evolution. In this project, I took the outputs of a Milky Way-analoguous 
+									galaxy in isolation, and studied the evolution of a <a href = "https://astronomy.swin.edu.au/cosmos/b/Bars">galactic bar</a> at its centre. The aim of this project was to eventually utilise the simulation
+									results to investigate the likelihood of a bar at the centre of the Milky Way.
+								</p>
+								<p>
+									To this end, we found that a strong bar formed in the centre of our simulation, and grew substantially over time. However, the goal of comparing to observations 
+									from within the Galaxy was not reached. This was still excellent experience, and prepared me well for future internships as well as for my PhD. It also caused me 
+									to find my love for studying galaxies and galaxy evolution. A subject I had not yet encountered as an undergraduate at Glasgow.
+								</p>
+							</div>
+						</article>
+
+						<article id="outreach">
+							<h1 class="major">Academic & Public <br/> Outreach</h1>
+							<p>
+								In this section, I will detail the talks and seminars I given and (where possible) link to recordings of those talks for those who are interested! I will also show a list of 
+								outreach I have conducted while at Lancaster.
+							</p>
+
+							<h3 class = "major">Talks and Seminars</h3>
+							<h3>Seminars</h3>
+								<ol>
+									<li>Creating a Large Interacting Galaxy Dataset with the ESA Hubble Archive, Galaxy Zoo Labels and Deep Learning (Location: University of Lancaster, UK)</li>
+									<li>Creating a Large Interacting Galaxy Dataset with the ESA Hubble Archive, Galaxy Zoo Labels and Deep Learning (Location: European Space Astronomy Centre, ESA)</li>
+								</ol>
+							
+							<h3>Contributed Talks</h3>
+							<ol>
+								<li>Creating a Large Interacting Galaxy Dataset with the ESA Hubble Archive, Galaxy Zoo Labels and Deep Learning (Location: University of Edinburgh, UK)</li>
+								<li><a href = "https://youtu.be/3GQ04g51-kU">ESA Datalabs with Pandas - Creating 126 Million Cutouts</a> (Location: European Space Astronomy Centre, ESA)</li>
+								<li><a href = "https://youtu.be/dcHUmCvBSKc">Exploring Galaxy Merger Histories and Their Parameters Using Low Surface Brightness Structure</a> (Location: European Astronomy Society, Netherlands)</li>
+								<li>Exploring Galaxy Merger Histories and Their Parameters Using Low Surface Brightness Structure (Location: National Astromomy Meeting, UK)</li>
+								<li>Painting Galaxies: A Statistical Framework for Quantifying Galaxy Merger Histories (Location: University of Durham, UK)</li>
+							</ol>
+
+							<h3>Misc</h3>
+							<ol>
+								<li>Podcast Appearence: <a href = "https://www.youtube.com/watch?v=7rcrnSWELVE&list=PLoOrrdSeflWqA-qTbjotDA2SvTvlLFxzN&index=2">The Earth is Flat on Planet Pluto</a>
+							</ol>
+							
+							<h2>Outreach</h2>
+							<h3>Positions Held</h3>
+							<ol>
+								<li>Volunteer at Newton Science Festival</li>
+								<li>Summer Volunteer at Jodrell Bank</li>
+								<li>Planetarium Presenter for LUniverse</li>
+								<li>Giving Seminars and Talks to 6th Form Students</li>
+							</ol>
+						</article>
+
+						<article id="teaching">
+							<h2 class="major">Teaching</h2>
+							<p>
+								Throughout my post-graduate degree at Lancaster, I have been a teaching assistant to different courses. While I do not have any lecturing experience (yet), I do have the experience helping teach and marking the below courses. If you would 
+								like details on these courses, then please click the drop downs!
+							</p>
+							<button type = "button" class = "collapsible">1st Year Waves & Oscillations</button>
+							<div class = "entry">
+								<p>
+									This course focused on teaching students the mathematical descriptions of waves and harmonic oscillators. This course was a challenging one for its students, with a high skill in algebra and visualisation of systems required.
+									It taught from the basics to harmonic oscillators, to mechanical and standing waves and finally calculating transmission and reflection waves.
+								</p>
+							</div>
+							<button type = "button" class = "collapsible">2nd Year Astro Labs</button>
+							<div class = "entry">
+								<p>
+									The second year AstroLab course at Lancaster was essentially a set of laboratory experiments of mock or real data that the students would conduct over a two week period. Through four 5-hour sessions, they would begin an experiment, write up a
+									full report and have it returned to them fully marked. I ran one experiment through the semester. This experiment was mapping out Hertzsprung-Russell Diagrams of a stellar population, and calculating its age and characteristics.
+								</p>
+							</div>
+							<button type = "button" class = "collapsible">2nd & 3rd Year Quantum Mechanics</button>
+							<div class = "entry">
+								<p>
+									These two courses taught basic and advanced quantum mechanics to the students at Lancaster. It was mathemtically intensive, starting from teaching students the stationary schrodinger 
+									equation and finally ramping up to quantum descriptions of different molecules. This was a course that I also found incredibly difficult in my undergraduate, however, after teaching it I 
+									had a new understanding and appreciation for.
+								</p>
+							</div>
+							<button type = "button" class = "collapsible">3rd Year Computational Methods (Python)</button>
+							<div class = "entry">
+								<p>
+									This was an interesting course to teach, as it was essentially teaching the students code carpentry and critical skill. The students would choose a programming project (often some kind of simulator) and would then build 
+									it from scratch. I found that this was the the best way to teach programming, with the students skill improving massively over the six week course. My job was to essentially check in on the students as they worked, and help with any bugs or technical issues 
+									they had. 
+								</p>
+							</div>
+						</article>
+				</div>
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon"><img src = "my_images/DOR_circ.png" alt = "Me" width = "101.15%" height="auto"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>David O'Ryan</h1>
+								<p>
+									Hi there! I'm a fourth year PhD student in the Observational Astrophysics Group at the 
+									<a href = "https://www.lancaster.ac.uk/">University of Lancaster</a>, UK. The focus of
+									my research is to explore and understand interacting and merging galaxies and the impact
+									they have on cosmic history and galaxy evolution.
+								</p>
+								<p>
+									This website is a summary of my work, what I'm up to, and a bit more about me. Any questions, don't
+									hesitate to contact me!
+								</p>
+								<p>
+									Email: <a href = "mailto:d.oryan@lancaster.ac.uk">d.oryan@lancaster.ac.uk</a>
+								</p>
+							</div>
+						</div>
+						
+						<div id = "main2">
+							<div class = "inner">
+								<div id="tiles">
+										<article class="style8">
+											<span class="image">
+												<img src="my_images/me2.jpg" alt="Me" />
+											</span>
+											<a href="#about">
+												<h2>About Me</h2>
+												<div class="content">
+													<p>More detailed summary of myself.</p>
+												</div>
+											</a>
+										</article>	
+										<article class="style8">
+											<span class="image">
+												<img src="my_images/antennae-resize.jpg" alt="The Antennae Galaxy" />
+											</span>
+											<a href="#research">
+												<h2>Research Interests</h2>
+												<div class="content">
+													<p>Details about my current research.</p>
+												</div>
+											</a>
+										</article>
+										<article class="style8">
+											<span class="image">
+												<img src="my_images/ESA-logo-updated-resize.jpg" alt="The ESA logo." />
+											</span>
+											<a href="#internships">
+												<h2>Internships</h2>
+												<div class="content">
+													<p>Details of previous internships.</p>
+												</div>
+											</a>
+										</article>
+										<article class="style8">
+											<span class="image">
+												<img src="my_images/editoutreach4-resize.jpg" alt="Me giving a seminar." />
+											</span>
+											<a href="#outreach">
+												<h2>Academic & Public Outreach</h2>
+												<div class="content">
+													<p>Links to Seminars and Outreach.</p>
+												</div>
+											</a>
+										</article>
+										<article class="style8">
+											<span class="image">
+												<img src="my_images/lancaster-logo-resize.jpg" alt="Logo of Lancaster University." />
+											</span>
+											<a href="#teaching">
+												<h2>Teaching</h2>
+												<div class="content">
+													<p>My experience as teaching assistant.</p>
+												</div>
+											</a>
+										</article>
+									</article>
+									<article class="style8">
+										<span class="image">
+											<img src="my_images/cv-overview-resize.jpg" alt="Stock image of a graduation hat!" />
+										</span>
+										<a href="DOR_CV.pdf">
+											<h2>Detailed CV</h2>
+											<div class="content">
+												<p>My full CV.</p>
+											</div>
+										</a>
+									</article>
+								</div>
+							</div>
+						</div>
+						<ul class="icons">
+							<li><a href="https://twitter.com/DavidORyan1" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/AstroORyan" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="mailto:d.oryan@lancaster.ac.uk" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<!-- Footer -->
+						<footer id="footer">
+							<p class="copyright">&copy; David O'Ryan 2023. Design: <a href="https://html5up.net">HTML5 UP</a> - a combination of Dimension & Phantom templates.</p>
+							<p class="copyright">Backround Image: Orion Nebula &copy; <a href = "https://esahubble.org/images/opo0205c/">Anglo-Australian Observatory by David Malin</a> </p>
+						</footer>
+					</div>
+				</header>
+			</div>
+		<!-- Footer -->
+	</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
